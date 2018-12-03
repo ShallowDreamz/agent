@@ -29,13 +29,8 @@
     </bean>
     <!-- jedis整合spring -->
     <bean id="jedisClient" class="redis.clients.jedis.JedisPool">
-<<<<<<< HEAD
-        <constructor-arg name="host" value="192.168.47.128"/>
-        <constructor-arg name="port" value="6379"/>
-=======
         <constructor-arg name="host" value="47.105.36.116"/>
         <constructor-arg name="port" value="6378"/>
->>>>>>> CI
         <constructor-arg name="poolConfig" ref="jedisPoolConfig"/>
     </bean>
 
